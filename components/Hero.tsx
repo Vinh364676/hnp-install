@@ -52,7 +52,7 @@ export function Hero() {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="https://github.com/Vinh364676/hnp-install/releases/download/1.0.0/hnp.apk"
+            href="https://drive.google.com/file/d/1QP3ssJ5FMdD-Yv3hy1K4XKlI52UvycBQ/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="w-40 h-12 rounded-xl bg-white text-[#111] flex items-center justify-center gap-2.5 shadow-[0_4px_15px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_20px_rgba(0,0,0,0.08)] hover:bg-black/[0.02] transition-colors"
