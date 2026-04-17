@@ -26,17 +26,16 @@ export function Hero() {
 
         <motion.h1
           variants={FADE_UP}
-          className="text-6xl font-black tracking-tighter text-[#111] leading-[0.95] mb-8"
+          className="text-xl sm:text-6xl font-black tracking-tighter text-[#111] leading-[1.2] mb-4 sm:mb-8"
         >
-          Thao tác tinh giản, <br className="hidden sm:block" />
-          hiệu năng mượt mà.
+          <span className="block sm:inline">Thao tác tinh giản,</span>
+          <span className="block sm:inline">hiệu năng mượt mà.</span>
         </motion.h1>
-
-        <motion.p variants={FADE_UP} className="text-sm text-[#666] max-w-2xl font-medium leading-relaxed mb-10">
+        <motion.p variants={FADE_UP} className=" text-xs sm:text-sm text-[#666] max-w-2xl font-medium leading-relaxed mb-10 px-4">
           Ứng dụng sức mạnh của nguyên lý thị giác. HNPVN cung cấp một hệ sinh thái gọn gàng để kiểm soát quỹ lương, duyệt phép và tính toán hiệu suất 60FPS.
         </motion.p>
 
-        <motion.div variants={FADE_UP} className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full z-20 relative">
+        <motion.div variants={FADE_UP} className="flex flex-row items-center justify-center gap-4 w-full z-20 relative">
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
