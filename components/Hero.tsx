@@ -48,17 +48,17 @@ export function Hero() {
             <span className="text-[14px] font-bold tracking-wide">Tải iOS</span>
           </motion.a>
 
-          <motion.a
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            href="https://drive.google.com/file/d/1QP3ssJ5FMdD-Yv3hy1K4XKlI52UvycBQ/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-40 h-12 rounded-xl bg-white text-[#111] flex items-center justify-center gap-2.5 shadow-[0_4px_15px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_20px_rgba(0,0,0,0.08)] hover:bg-black/[0.02] transition-colors"
-          >
-            <GooglePlayLogo weight="fill" className="w-5 h-5 text-[#111]" />
-            <span className="text-[14px] font-bold tracking-wide">Tải Android</span>
-          </motion.a>
+         <motion.a
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  href="https://drive.google.com/file/d/1Zsz7q57Lsy9fM4DmgQjSfaSBNupTYbhe/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-40 h-12 rounded-xl bg-white text-[#111] flex items-center justify-center gap-2.5 shadow-[0_4px_15px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_20px_rgba(0,0,0,0.08)] hover:bg-black/[0.02] transition-colors"
+>
+  <GooglePlayLogo weight="fill" className="w-5 h-5 text-[#111]" />
+  <span className="text-[14px] font-bold tracking-wide">Tải Android</span>
+</motion.a>
         </motion.div>
       </motion.div>
 
